@@ -24,7 +24,6 @@ test <- cbind(subject_test, y_test, X_test)
 
 fulldataset <- rbind(train, test)
 names(fulldataset) <- c("Subject", "ActivityNum", as.character(read.table("./UCI HAR Dataset/features.txt")[,2]))
-colref <- grep("Subject|ActivityNum|mean[^Freq]|std", names(fulldataset))
 
 # Identify the columns that represent variables that are a mean or standard deviation,
 # and then create a new dataset that excludes all other measured variables.
