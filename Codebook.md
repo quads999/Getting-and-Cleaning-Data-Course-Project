@@ -1,5 +1,6 @@
+# Codebook for script: run_analysis.R
 
-# Variables created in run_analysis.R
+# Variables created
  - subject_train : stores the subject number for each observation of the training dataset
  - y_train : stores the activity Id for each observation of the training dataset
  - X_train : stores the measured variables for each observation of the training dataset
